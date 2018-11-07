@@ -1,0 +1,51 @@
+[
+  {
+  "name":"Manassas 4 Cinemas LLC",
+  "city": "Manassas",
+  "amenities": "SnackBar, Stadium Seating",
+  "url": "",
+  "pos": {"lat":38.750518, "lng": -77.504945}
+},
+{
+  "name": "Regal Cinemas Virginia Gateway 14 & RPX",
+  "city": "Manassas",
+  "amenities": "In-Seat Ordering, Stadium Seating ",
+  "url": "https//:regal14.com",
+  "pos": {"lat":38.762562, "lng":-77.492915}
+},
+{
+  "name":"Regal Cinemas Manassas 14 & IMAX",
+  "city": "Manassas",
+  "amenities": "Bar, IMAX",
+  "url":"https://regal14i.com",
+  "pos": {"lat":38.786400, "lng":-77.501825}
+},
+{
+  "name":"Regal Cinemas Fox 16 & IMAX",
+  "city": "Fairfax",
+  "amenities": "Rewards, SnackBar",
+  "url":"https://regal16.com",
+  "pos": {"lat":38.837684, "lng":-77.437556}
+},
+{
+  "name":"Regal Cinemas Fairfax Towne Center 10",
+   "city": "Fairfax",
+   "amenities": "Online Ticket Purchase",
+   "url": "https://regal10.com",
+   "pos": {"lat":38.767379, "lng":-77.487758}
+},
+{
+  "name":"AMC Worldgate 9",
+  "city": "Herndon",
+  "amenities": "Birthday Parties",
+  "url": "https://worldgate9.com",
+  "pos": {"lat":38.764414, "lng":-77.458565}
+},
+{
+  "name":"AMC Potomac Mills 18",
+  "city": "Potomac Mills",
+  "amenities": "SnackBar, Senior Discount",
+  "url": "https://potomacmills18.com",
+  "pos": {"lat":38.793149, "lng":-77.597491}
+}
+]
