@@ -1,4 +1,4 @@
-# Restaurant Review App by Tracy Fussell
+# NoVa Movies App by Tracy Fussell
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@
 * [Acknowledgements](#acknowledgements)
 
 ## Description
-This NoVA Mvies App is part of the Grow with Google FrontEnd Nano degree program.  The app allows the user to search for movie theatres in the Northern Virginia area.  The user can see a full ilst of local movie theaters or using the search function filter the list of movie theatres by name.  Clicking on the location marker will display stats regarding that movie theatre.
+This NoVA Movies App is part of the Grow with Google FrontEnd Nano degree program.  The app allows the user to search for movie theatres in the Northern Virginia area.  The user can see a full ilst of local movie theaters or using the search function filter the list of movie theatres by name.  Clicking on the location marker will display stats regarding that movie theatre.
 
 ## Prerequisites
 The code for this project is written in React, CSS, JSON and JavaScript.  It requires a browser that supports ES6 and allows the player's browser to run scripts.
@@ -45,4 +45,4 @@ https://reactjs.org/docs/error-boundaries.html
 
 
 ## Notes
-The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in SEARCH_Terms.md. That list of terms are the _only_ terms that will work with the backend.
+None
