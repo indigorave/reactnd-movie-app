@@ -55,7 +55,7 @@ class MovieMap extends Component {
         this.closeInfoWindow();
 
 //Settingup foursquare data
-      let url = `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT}&client_secret=${SECRET}&v=${VERSION}&radius=100&ll=${props.position.lat},${props.position.lng}&llAcc=100`;
+        let url = `https://api.foursquare.com/v2/venues/search?client_id=${CLIENT}&client_secret=${SECRET}&v=${VERSION}&radius=100&ll=${props.position.lat},${props.position.lng}&llAcc=100`;
         let headers = new Headers();
         let request = new Request(url, {
             method: 'GET',
@@ -90,13 +90,14 @@ class MovieMap extends Component {
                 }
             })
     }
+
     updateMarkers = (theatres) => {
           if (!theatres)
             return;
         this.state.markers.forEach(marker => marker.setMap(null));
         let markerProps = [];
         let markers = theatres.map((location, index) => {
-            let mProps = {
+        let mProps = {
                 key: index,
                 index,
                 name: location.name,
@@ -105,9 +106,8 @@ class MovieMap extends Component {
                 amenities: location.amenities
             };
             markerProps.push(mProps);
-
-            let animation = this.props.google.maps.Animation.DROP;
-            let marker = new this.props.google.maps.Marker({position: location.pos, map: this.state.map, animation});
+        let animation = this.props.google.maps.Animation.DROP;
+        let marker = new this.props.google.maps.Marker({position: location.pos, map: this.state.map, animation});
             marker.addListener('click', () => {
                 this.onMarkerClick(mProps, marker, null);
             });

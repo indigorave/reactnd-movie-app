@@ -29,6 +29,12 @@ This is a browser based app.  To install
 3. Run npm start from the command line.
 Your browser will automatically open to localhost:3000 and start the app  
 
+To create a production build:
+1. Open cmd window
+2. Run npm run build from command line.
+3. To serve with a static server run npm install -g  serve
+4. Run serve -s build
+
 ## Versioning
 Version 1.0
 
@@ -39,12 +45,10 @@ As this project will become part of my portfolio, I will not be merging pull req
 Tracy Fussell
 
 ## Acknowledgements
-I would like to thank Doug at Udacity for his walkthrough.  I also used https://reacttraining.com/react-router/web/guides/philosophy https://reactjs.org/docs/lifting-state-up.html
+I would like to thank Doug at Udacity for his walkthrough.  I also used: https://reacttraining.com/react-router/web/guides/philosophy https://reactjs.org/docs/lifting-state-up.html
 https://reactjs.org/docs/state-and-lifecycle.html
 https://reactjs.org/docs/error-boundaries.html
 
 
 ## Notes
-Service Worker functionality is only available in Production mode.  To create a production build:
-1. Open cmd window
-2. Run npm build from command line.
+Service Worker functionality is only available in Production mode.  
