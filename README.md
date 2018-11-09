@@ -45,10 +45,11 @@ As this project will become part of my portfolio, I will not be merging pull req
 Tracy Fussell
 
 ## Acknowledgements
-I would like to thank Doug at Udacity for his walkthrough.  I also used: https://reacttraining.com/react-router/web/guides/philosophy https://reactjs.org/docs/lifting-state-up.html
-https://reactjs.org/docs/state-and-lifecycle.html
-https://reactjs.org/docs/error-boundaries.html
-https://facebook.github.io/create-react-app/docs/deployment
+I would like to thank Doug at Udacity for his walkthrough.  I also used:
+* https://reacttraining.com/react-router/web/guides/philosophy https://reactjs.org/docs/lifting-state-up.html
+* https://reactjs.org/docs/state-and-lifecycle.html
+* https://reactjs.org/docs/error-boundaries.html
+* https://facebook.github.io/create-react-app/docs/deployment
 
 ## Notes
 Service Worker functionality is only available in Production mode.  
