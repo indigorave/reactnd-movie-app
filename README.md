@@ -24,7 +24,7 @@ foursquare
 
 ## Installing
 This is a browser based app.  To install
-1. Fork and clone the respository from git hub indigorave/movies-app repository
+1. Fork and clone the respository from git hub indigorave/reactnd-movie-app repository
 2. Run npm install from the command line.
 3. Run npm start from the command line.
 Your browser will automatically open to localhost:3000 and start the app  
