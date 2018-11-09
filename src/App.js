@@ -5,6 +5,9 @@ import MovieMap from './components/MovieMap';
 import SearchMenu from './components/SearchMenu';
 
 
+//Transition to non-deprecated material-ui typography
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
+
 class App extends Component {
   state = {
     lat: 38.829825,
@@ -67,7 +70,7 @@ class App extends Component {
     return (
       <div className="App">
         <div role= "application">
-        <button tabindex="0" onClick={this.toggleDrawer} style={this.styles.menuButton}>
+        <button tabIndex="0" onClick={this.toggleDrawer} style={this.styles.menuButton}>
           Search
          </button>
           <h1>NoVa Movie Theaters</h1>

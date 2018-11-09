@@ -45,4 +45,6 @@ https://reactjs.org/docs/error-boundaries.html
 
 
 ## Notes
-None
+Service Worker functionality is only available in Production mode.  To create a production build:
+1. Open cmd window
+2. Run npm build from command line.
